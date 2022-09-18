@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #efefef;
+    padding: 1em;
+
+    nav {
+        margin-left: auto;
+    }
+
+    .burger {
+        display: none;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+
+    article {
+        flex: 1;
+        margin: 1em;
+    }
+}
+
+h1 {
+    color: red;
+}
